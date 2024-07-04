@@ -31,8 +31,13 @@
       <section id="projects">
         <project-section :projects="projects"/>
       </section>
-      <section id="testimonials"></section>
-      <section id="contact"></section>
+      <section id="testimonials">
+        <testimonial-section :projects="projects"/>
+      </section>
+
+      <section id="contact">
+        <contactUs-section :contactUs="contactUs"/>
+      </section>
     </main>
     <Footer/>
   </div>
@@ -46,6 +51,8 @@ import AboutSection from '@/components/AboutSection.vue'
 import ResumeSection from '@/components/ResumeSection.vue'
 import ProjectSection from '@/components/ProjectSection.vue'
 import SkillsSection from '@/components/SkillsSection.vue'
+import TestimonialSection from '@/components/TestimonialSection.vue'
+import ContactUsSection from '@/components/ContactUsSection.vue'
 
 
 export default {
@@ -64,9 +71,16 @@ export default {
     },
     skills () {
       return this.$store.state.skills
-    }
+    },
+    testimonials () {
+      return this.$store.state.Testimonial
+    },
+    contact () {
+      return this.$store.state.contact
+      }
+    },
 
-  },
+  
   components: {
     NavBar,
     Footer,
@@ -74,14 +88,20 @@ export default {
     AboutSection,
     ResumeSection,
     ProjectSection,
-    SkillsSection
+    SkillsSection,
+    TestimonialSection,
+    ContactUsSection
+    
   },
   mounted() {
     this.$store.dispatch('getAboutMe'),
     this.$store.dispatch('getHobbies'),
     this.$store.dispatch('getEducation'),
     this.$store.dispatch('getprojects'),
-    this.$store.dispatch('getSkills')
+    this.$store.dispatch('getSkills'),
+    this.$store.dispatch('getTestimonial')
+    this.$store.dispatch('getContact')
+
   }
 }
 </script>
