@@ -32,7 +32,7 @@
 
 <script>
 export default {
-  name: 'ResumeSection',
+  name: "ProjectSection",
   props: {
     education: {
       type: Array,
