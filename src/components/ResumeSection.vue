@@ -44,26 +44,23 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
-              <h4>Senior graphic design specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY </em></p>
+              <h4>Oppo Inc</h4>
+              <h5>january 2022 - Febuary 2023</h5>
+              <p><em>Canal Walk</em></p>
               <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                <li>I was a Sales Consultant in a Cellular Store.</li>
+                <li>Managed all stock in and out of the store.</li>
+                <li>Overlooked at all promotions active are known to all empolyees.</li>
+                <li>Looked at the Customer statisfaction after using our product.</li>
               </ul>
             </div><!-- Edn Resume Item -->
 
             <div class="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+              <h4>Aspiring Software developer</h4>
+              <h5>April 2024 -</h5>
+              <p><em>Imam Haron road, Landsdown</em></p>
               <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+                <li>Attending Lectures in class</li>
               </ul>
             </div><!-- Edn Resume Item -->
 

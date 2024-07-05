@@ -15,13 +15,13 @@
           <li data-filter=".filter-branding">Web</li>
         </ul><!-- End Portfolio Filters -->
         <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-          <div v-for="item in portfolio" :key="item.id" :class="`col-lg-4 col-md-6 portfolio-item isotope-item filter-${item.type}`">
+          <div v-for="item in projects" :key="item.id" :class="`col-lg-4 col-md-6 portfolio-item isotope-item filter-${item.type}`">
             <img :src="item.image" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>{{ item.github }}</h4>
-              <p>{{ item.vercel }}</p>
+              <!-- <h4>{{ item.github }}</h4> -->
+              <!-- <p>{{ item.vercel }}</p> -->
               <a :href="item.image" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              <a :href="item.details" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              <a :href="item.vercel" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
             </div>
           </div><!-- End Portfolio Item -->
         </div><!-- End Portfolio Container -->
@@ -34,15 +34,23 @@
 export default {
   name: "ProjectSection",
   props: {
-    education: {
+    projects: {
       type: Array,
       required: true
     }
+  },
+    computed: {
+    work() {
+      return this.$store.state.work
+    },
+  },
+  mounted() {
+    this.$store.dispatch('getProjects')
   }
+  
 }
 </script>
 
 <style>
 
 </style>
-
