@@ -9,27 +9,16 @@
         <a href=""><i class="bi bi-instagram"></i></a>
         <a href=""><i class="bi bi-skype"></i></a>
         <a href=""><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/AzharJacobs"><i class="bi bi-github"></i></a>
       </div>
       <div class="container">
         <div class="copyright">
           <p class="lead">Azhar Jacobs &copy; <span class="shadow">{{ cYear }}</span></p>
         </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
       </div>
     </div>
   </footer>
 
-    <footer class="container-fluid">
-        <div class="row">
-            <p class="lead">Azhar Jacobs &copy; <span class="shadow">{{ cYear }}</span></p>
-        </div>
-    </footer>
 </template>
 <script>
 export default {

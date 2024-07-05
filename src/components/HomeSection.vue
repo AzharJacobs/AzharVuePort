@@ -3,7 +3,7 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section light-background">
 
-      <img src="assets/img/hero-bg.jpg" alt="">
+      <img src="https://azharjacobs.github.io/AzharImages/Portfolio/backgroundPort.jpg" alt="">
 
       <div class="container" data-aos="zoom-out">
         <div class="row justify-content-center">
@@ -21,6 +21,7 @@
               <a href="#"><i class="bi bi-facebook"></i></a>
               <a href="#"><i class="bi bi-instagram"></i></a>
               <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="https://github.com/AzharJacobs"><i class="bi bi-github"></i></a>
             </div>
           </div>
         </div>
