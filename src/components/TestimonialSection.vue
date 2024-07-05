@@ -9,19 +9,19 @@
     <!-- End Section Title -->
     <div class="container" data-aos="fade-up" data-aos-delay="100">
       <div class="row gy-4 justify-content-center">
-        <div v-for="(testimonial, index) in testimonials" :key="index" class="col-lg-3 col-md-6">
+        <div v-for="(testimonials, index) in testimonials" :key="index" class="col-lg-3 col-md-6">
           <div class="testimonial-item">
-            <img :src="testimonial.image" class="img-fluid testimonial-img" alt="">
+            <img :src="testimonials.image" class="img-fluid testimonial-img" alt="">
             <div class="testimonial-content">
               <p>
                 <i class="bi bi-quote quote-icon-left"></i>
-                <span>{{ testimonial.message }}</span>
+                <span>{{ testimonials.message }}</span>
                 <i class="bi bi-quote quote-icon-right"></i>
               </p>
-              <h3>{{ testimonial.name }}</h3>
-              <h4>{{ testimonial.title }}</h4>
+              <h3>{{ testimonials.name }}</h3>
+              <h4>{{ testimonials.title }}</h4>
               <div class="stars">
-                <i v-for="star in testimonial.stars" :key="star" class="bi bi-star-fill"></i>
+                <i v-for="star in testimonials.stars" :key="star" class="bi bi-star-fill"></i>
               </div>
             </div>
           </div>

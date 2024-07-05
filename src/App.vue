@@ -32,7 +32,7 @@
         <project-section :projects="projects"/>
       </section>
       <section id="testimonials">
-        <testimonial-section :projects="projects"/>
+        <testimonial-section :testimonial="testimonial"/>
       </section>
 
       <section id="contact">
@@ -73,7 +73,7 @@ export default {
       return this.$store.state.skills
     },
     testimonials () {
-      return this.$store.state.Testimonial
+      return this.$store.state.Testimonials
     },
     contact () {
       return this.$store.state.contact
@@ -99,7 +99,7 @@ export default {
     this.$store.dispatch('getEducation'),
     this.$store.dispatch('getprojects'),
     this.$store.dispatch('getSkills'),
-    this.$store.dispatch('getTestimonial')
+    this.$store.dispatch('getTestimonials')
     this.$store.dispatch('getContact')
 
   }
