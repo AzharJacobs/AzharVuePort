@@ -13,11 +13,11 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100" v-for="skill in skills" :key="skill.id">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100" v-for="skill in skills" :key="skill">
             <div class="service-item item-cyan position-relative">
               <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                <img :src="skills.icons" alt="hobby" loading="lazy">
+                <svg width="100" height="100" viewBox="0 0 600 600" >
+                <img :src="skill.icon" alt="hobby" loading="lazy">
                 </svg>
                 <i class="bi bi-activity"></i>
               </div>

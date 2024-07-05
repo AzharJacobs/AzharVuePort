@@ -10,7 +10,7 @@
     <div class="container" data-aos="fade-up" data-aos-delay="100">
       <div class="row gy-4 justify-content-center">
         <div class="col-lg-4">
-          <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          <img src="https://azharjacobs.github.io/AzharImages/Portfolio/profile.jpg" class="img-fluid" alt="">
         </div>
         <div class="col-lg-8 content">
           <h2>UI/UX Designer & Web Developer.</h2>
