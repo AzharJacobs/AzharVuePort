@@ -29,10 +29,10 @@ export default createStore({
       state.education = payload
     },
     setWork(state,payload) {
-      state.education = payload
+      state.work = payload
     },
     setProjects(state,payload) {
-      state.work = payload
+      state.projects = payload
     },
     setTestimonials(state,payload) {
       state.testimonials = payload

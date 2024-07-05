@@ -454,6 +454,8 @@
     background-color: var(--background-color);
     padding: 60px 0;
     overflow: clip;
+    margin: 0;
+    padding: 0;
   }
   
   /*--------------------------------------------------------------
@@ -795,6 +797,10 @@
   .portfolio .portfolio-item {
     position: relative;
     overflow: hidden;
+    height: 300px; /* Add a fixed height */
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Vertically center the content */
   }
   
   .portfolio .portfolio-item .portfolio-info {
@@ -997,13 +1003,13 @@
   }
   
   .testimonials .testimonial-item h3 {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     margin: 10px 0 5px 0;
   }
   
   .testimonials .testimonial-item h4 {
-    font-size: 14px;
+    font-size: 10px;
     color: color-mix(in srgb, var(--default-color), transparent 40%);
     margin: 0 0 10px 0;
   }
@@ -1016,7 +1022,7 @@
   .testimonials .testimonial-item .quote-icon-left,
   .testimonials .testimonial-item .quote-icon-right {
     color: color-mix(in srgb, var(--accent-color), transparent 50%);
-    font-size: 26px;
+    font-size: 10px;
     line-height: 0;
   }
   

@@ -83,7 +83,7 @@ export default {
     justify-content: center;
     align-items: center;
     margin: 40px;
-    background: #0563bb;
+    border: 2px solid #0563bb;
     transition: 0.5s;
 }
 
@@ -109,7 +109,7 @@ export default {
 
 .box .imgBx img {
     max-width: 100%;
-    opacity: 0.1;
+    /* opacity: 0.1; */
     transition: 0.5s;
     overflow: hidden;
 }
@@ -172,7 +172,7 @@ export default {
         right: 10px;
         bottom: 10px;
         height: 90px;
-        background: #0563bb;
+        /* background: #0563bb; */
         display: flex;
         text-align: center;
         flex-direction: column;

@@ -50,10 +50,20 @@ export default {
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px; /* added width */
+  height: 350px; /* added height */
+  display: flex; /* added display flex */
+  flex-direction: column; /* added flex direction column */
 }
 
 .testimonial-content {
   padding: 20px;
+  flex-grow: 1;
+  font-size: 14px;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
 }
 
 .testimonial-img {
