@@ -16,12 +16,12 @@
             <h3 class="resume-title">Sumary</h3>
 
             <div class="resume-item pb-0">
-              <h4>Brandon Johnson</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+              <h4>Mogamat Azhar Jacobs</h4>
+              <p><em>I am a balanced, lighthearted individual with a strong sense of responsibility, guided by respect, integrity, and mindfulness. Passionate about personal growth, I enjoy staying active, web development, sketching, and spending time with loved ones.Ambitious and dedicated to holistic success, I pursue constant self-improvement with a goal to build generational wealth and make a positive impact on society.</em></p>
               <ul>
-                <li>Portland par 127,Orlando, FL</li>
-                <li>(123) 456-7891</li>
-                <li>alice.barkley@example.com</li>
+                <li>Parow, Cape Town</li>
+                <li>066 317 5741</li>
+                <li>azharj2003@gmail.com</li>
               </ul>
             </div><!-- Edn Resume Item -->
 
@@ -48,10 +48,10 @@
               <h5>january 2022 - Febuary 2023</h5>
               <p><em>Canal Walk</em></p>
               <ul>
-                <li>I was a Sales Consultant in a Cellular Store.</li>
-                <li>Managed all stock in and out of the store.</li>
-                <li>Overlooked at all promotions active are known to all empolyees.</li>
-                <li>Looked at the Customer statisfaction after using our product.</li>
+                <li>Demonstrating the features and benefits of Oppo devices, ensuring customers had a clear understanding of the product offerings.</li>
+                <li>Achieving sales targets by providing excellent customer service, addressing queries, and offering tailored solutions.</li>
+                <li>Assisting in maintaining product displays and ensuring a professional, welcoming store environment.</li>
+                <li>Providing after-sales support, helping customers with product setup and troubleshooting when needed.</li>
               </ul>
             </div><!-- Edn Resume Item -->
 
@@ -60,7 +60,10 @@
               <h5>April 2024 -</h5>
               <p><em>Imam Haron road, Landsdown</em></p>
               <ul>
-                <li>Attending Lectures in class</li>
+                <li>Collaborating with peers on group coding projects, simulating real-world development workflows.</li>
+                <li>Participating in both front-end and back-end development tasks using technologies like HTML, CSS, JavaScript, Node.js, and databases.</li>
+                <li>Problem-solving through coding challenges, debugging, and optimizing code for efficiency.</li>
+                <li>Learning and applying new programming languages, frameworks, and best practices under the guidance of mentors and instructors.</li>
               </ul>
             </div><!-- Edn Resume Item -->
 
