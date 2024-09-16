@@ -4,7 +4,7 @@
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
       <h2>Portfolio</h2>
-      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      <p>Explore a diverse collection of my projects and achievements. From innovative web applications to impactful design work, each project showcases my skills and creativity. Discover how I've tackled challenges and delivered solutions across various domains, demonstrating a commitment to quality and excellence in every endeavor.</p>
     </div><!-- End Section Title -->
     <div class="container">
       <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
