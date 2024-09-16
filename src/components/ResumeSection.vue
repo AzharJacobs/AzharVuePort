@@ -1,100 +1,75 @@
 <template>
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
+  <!-- Resume Section -->
+  <section id="resume" class="resume section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div><!-- End Section Title -->
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Resume</h2>
+      <p>Delve into my professional journey and accomplishments. My resume highlights a diverse range of experiences, skills, and achievements that have shaped my career. From impactful projects and roles to key milestones, it provides a comprehensive overview of my expertise and the value I bring to any opportunity.</p>
+    </div><!-- End Section Title -->
 
-      <div class="container">
+    <div class="container">
 
-        <div class="row">
+      <div class="row">
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Sumary</h3>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="resume-title">Sumary</h3>
 
-            <div class="resume-item pb-0">
-              <h4>Mogamat Azhar Jacobs</h4>
-              <p><em>I am a balanced, lighthearted individual with a strong sense of responsibility, guided by respect, integrity, and mindfulness. Passionate about personal growth, I enjoy staying active, web development, sketching, and spending time with loved ones.Ambitious and dedicated to holistic success, I pursue constant self-improvement with a goal to build generational wealth and make a positive impact on society.</em></p>
-              <ul>
-                <li>Parow, Cape Town</li>
-                <li>066 317 5741</li>
-                <li>azharj2003@gmail.com</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
+          <div class="resume-item pb-0">
+            <h4>Mogamat Azhar Jacobs</h4>
+            <p><em>I am a balanced, lighthearted individual with a strong sense of responsibility, guided by respect, integrity, and mindfulness. Passionate about personal growth, I enjoy staying active, web development, sketching, and spending time with loved ones.Ambitious and dedicated to holistic success, I pursue constant self-improvement with a goal to build generational wealth and make a positive impact on society.</em></p>
+            <ul>
+              <li>Parow, Cape Town</li>
+              <li>066 317 5741</li>
+              <li>azharj2003@gmail.com</li>
+            </ul>
+          </div><!-- End Resume Item -->
 
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item" v-for="(item, index) in education" :key="index">
-              <h2>{{ item.institution }}</h2>
-              <small>{{ item.year }}</small>
-              <p>{{ item.qualification }}</p>
-            </div><!-- Edn Resume Item -->
+          <!-- Education Section -->
+          <h3 class="resume-title">Education</h3>
+          <div class="resume-item" v-for="(item, index) in education" :key="index">
+            <h2>{{ item.institution }}</h2>
+            <small>{{ item.year }}</small>
+            <p>{{ item.qualification }}</p>
+            <p>{{ item.description }}</p>
+          </div><!-- End Resume Item -->
 
-            <!-- <div class="resume-item">
-              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-              <h5>2010 - 2014</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
-            </div>Edn Resume Item -->
+        </div>
 
-          </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <!-- Professional Experience Section -->
+          <h3 class="resume-title">Professional Experience</h3>
+          <div class="resume-item">
+            <h4>Oppo Inc</h4>
+            <h5>January 2022 - February 2023</h5>
+            <p><em>Canal Walk</em></p>
+            <ul>
+              <li>Demonstrating the features and benefits of Oppo devices, ensuring customers had a clear understanding of the product offerings.</li>
+              <li>Achieving sales targets by providing excellent customer service, addressing queries, and offering tailored solutions.</li>
+              <li>Assisting in maintaining product displays and ensuring a professional, welcoming store environment.</li>
+              <li>Providing after-sales support, helping customers with product setup and troubleshooting when needed.</li>
+            </ul>
+          </div><!-- End Resume Item -->
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Oppo Inc</h4>
-              <h5>january 2022 - Febuary 2023</h5>
-              <p><em>Canal Walk</em></p>
-              <ul>
-                <li>Demonstrating the features and benefits of Oppo devices, ensuring customers had a clear understanding of the product offerings.</li>
-                <li>Achieving sales targets by providing excellent customer service, addressing queries, and offering tailored solutions.</li>
-                <li>Assisting in maintaining product displays and ensuring a professional, welcoming store environment.</li>
-                <li>Providing after-sales support, helping customers with product setup and troubleshooting when needed.</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-
-            <div class="resume-item">
-              <h4>Aspiring Software developer</h4>
-              <h5>April 2024 -</h5>
-              <p><em>Imam Haron road, Landsdown</em></p>
-              <ul>
-                <li>Collaborating with peers on group coding projects, simulating real-world development workflows.</li>
-                <li>Participating in both front-end and back-end development tasks using technologies like HTML, CSS, JavaScript, Node.js, and databases.</li>
-                <li>Problem-solving through coding challenges, debugging, and optimizing code for efficiency.</li>
-                <li>Learning and applying new programming languages, frameworks, and best practices under the guidance of mentors and instructors.</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-
-          </div>
+          <div class="resume-item">
+            <h4>Aspiring Software Developer</h4>
+            <h5>April 2024 -</h5>
+            <p><em>Imam Haron Road, Landsdowne</em></p>
+            <ul>
+              <li>Collaborating with peers on group coding projects, simulating real-world development workflows.</li>
+              <li>Participating in both front-end and back-end development tasks using technologies like HTML, CSS, JavaScript, Node.js, and databases.</li>
+              <li>Problem-solving through coding challenges, debugging, and optimizing code for efficiency.</li>
+              <li>Learning and applying new programming languages, frameworks, and best practices under the guidance of mentors and instructors.</li>
+            </ul>
+          </div><!-- End Resume Item -->
 
         </div>
 
       </div>
 
-    </section><!-- /Resume Section -->
+    </div>
 
-  <!-- <div class="container">
-    <div class="row pt-5">
-      <h2 class="text">Education</h2>
-    </div>
-    <div class="row pt-5">
-      <div class="col d-flex justify-content-center">
-        <div class="timeline">
-          <div v-for="(item, index) in education" :key="index" :class="['timeline-container', index % 2 === 0 ? 'left-container' : 'right-container']">
-            <img src="https://i.pinimg.com/originals/cd/65/15/cd6515604230d57b71983853c4156752.png" alt="">
-            <div class="text-box">
-              <h2>{{ item.institution }}</h2>
-              <small>{{ item.year }}</small>
-              <p>{{ item.qualification }}</p>
-              <span :class="[index % 2 === 0 ? 'left-container-arrow' : 'right-container-arrow']"></span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
+  </section><!-- /Resume Section -->
 </template>
 
 <script>

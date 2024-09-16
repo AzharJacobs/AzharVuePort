@@ -6,26 +6,26 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Skills</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+<p>
+  Proficient in full-stack web development, with expertise in HTML, CSS, JavaScript, and frameworks like Vue.js and Node.js. Skilled in database management using MySQL and adept at creating responsive, user-friendly interfaces. Strong problem-solving abilities and a collaborative mindset in project development.
+</p>
+
       </div><!-- End Section Title -->
 
       <div class="container">
 
         <div class="row gy-4">
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100" v-for="skill in skills" :key="skill">
-            <div class="service-item item-cyan position-relative">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" >
-                <img :src="skill.icon" alt="hobby" loading="lazy">
-                </svg>
-                <i class="bi bi-activity"></i>
-              </div>
-                 <a href="#" class="stretched-link">
-                 <h3>{{ skill.name }}</h3>
-                 </a>
-            </div>
-          </div><!-- End Service Item -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100" v-for="skill in skills" :key="skill.icon">
+  <div class="service-item item-cyan position-relative">
+    <div class="icon">
+      <img :src="skill.icon" alt="skill icon" loading="lazy">
+    </div>
+    <a href="#" class="stretched-link">
+      <h3>{{ skill.name }}</h3>
+    </a>
+  </div>
+</div><!-- End Service Item -->
         </div>
       </div>
 
