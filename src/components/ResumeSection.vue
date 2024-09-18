@@ -5,7 +5,7 @@
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
       <h2>Resume</h2>
-      <p>Delve into my professional journey and accomplishments. My resume highlights a diverse range of experiences, skills, and achievements that have shaped my career. From impactful projects and roles to key milestones, it provides a comprehensive overview of my expertise and the value I bring to any opportunity.</p>
+      <p>Dive into my professional journey and accomplishments. My resume highlights a diverse range of experiences, skills, and achievements that have shaped my career. From impactful projects and roles to key milestones, it provides a comprehensive overview of my expertise and the value I bring to any opportunity.</p>
     </div><!-- End Section Title -->
 
     <div class="container">
@@ -13,17 +13,6 @@
       <div class="row">
 
         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-          <h3 class="resume-title">Sumary</h3>
-
-          <div class="resume-item pb-0">
-            <h4>Mogamat Azhar Jacobs</h4>
-            <p><em>I am a balanced, lighthearted individual with a strong sense of responsibility, guided by respect, integrity, and mindfulness. Passionate about personal growth, I enjoy staying active, web development, sketching, and spending time with loved ones.Ambitious and dedicated to holistic success, I pursue constant self-improvement with a goal to build generational wealth and make a positive impact on society.</em></p>
-            <ul>
-              <li>Parow, Cape Town</li>
-              <li>066 317 5741</li>
-              <li>azharj2003@gmail.com</li>
-            </ul>
-          </div><!-- End Resume Item -->
 
           <!-- Education Section -->
           <h3 class="resume-title">Education</h3>

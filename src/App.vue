@@ -31,9 +31,6 @@
       <section id="projects">
         <project-section :projects="projects"/>
       </section>
-      <section id="testimonials">
-        <testimonial-section :testimonial="testimonial"/>
-      </section>
 
       <section id="contact">
         <contactUs-section :contactUs="contactUs"/>
@@ -51,7 +48,6 @@ import AboutSection from '@/components/AboutSection.vue'
 import ResumeSection from '@/components/ResumeSection.vue'
 import ProjectSection from '@/components/ProjectSection.vue'
 import SkillsSection from '@/components/SkillsSection.vue'
-import TestimonialSection from '@/components/TestimonialSection.vue'
 import ContactUsSection from '@/components/ContactUsSection.vue'
 
 
@@ -72,9 +68,6 @@ export default {
     skills () {
       return this.$store.state.skills
     },
-    testimonials () {
-      return this.$store.state.Testimonials
-    },
     contact () {
       return this.$store.state.contact
       }
@@ -89,7 +82,6 @@ export default {
     ResumeSection,
     ProjectSection,
     SkillsSection,
-    TestimonialSection,
     ContactUsSection
     
   },
@@ -99,7 +91,6 @@ export default {
     this.$store.dispatch('getEducation'),
     this.$store.dispatch('getprojects'),
     this.$store.dispatch('getSkills'),
-    this.$store.dispatch('getTestimonials')
     this.$store.dispatch('getContact')
 
   }

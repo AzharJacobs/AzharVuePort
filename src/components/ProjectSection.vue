@@ -18,9 +18,7 @@
           <div v-for="item in projects" :key="item.id" :class="`col-lg-4 col-md-6 portfolio-item isotope-item filter-${item.type}`">
             <img :src="item.image" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <!-- <h4>{{ item.github }}</h4> -->
-              <!-- <p>{{ item.vercel }}</p> -->
-              <a :href="item.image" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a :href="item.github" title="Github Repo" target="_blank" class="glightbox preview-link"><i class="bi bi-github"></i></a>
               <a :href="item.vercel" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
             </div>
           </div><!-- End Portfolio Item -->
