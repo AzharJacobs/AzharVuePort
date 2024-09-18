@@ -456,6 +456,7 @@
     overflow: clip;
     margin: 0;
     padding: 0;
+    font-family: "Times New Roman"
   }
   
   /*--------------------------------------------------------------
@@ -465,6 +466,7 @@
     text-align: center;
     padding-bottom: 60px;
     position: relative;
+    font-family: "Times New Roman"
   }
   
   .section-title h2 {
@@ -473,6 +475,7 @@
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
+    font-family: "Times New Roman"
   }
   
   .section-title h2:before {
@@ -522,10 +525,13 @@
     position: absolute;
     inset: 0;
     display: block;
-    width: 100%;
-    height: 100%;
+    width: 75%;
+    height: 75%;
     object-fit: cover;
     z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   
   .hero:before {

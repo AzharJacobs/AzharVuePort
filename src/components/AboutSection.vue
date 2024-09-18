@@ -88,21 +88,6 @@ export default {
     this.$store.dispatch('getAboutMe')
     this.$store.dispatch('getHobbies')
   }
-  // methods: {
-  //   getGradientIndex(index) {
-  //     switch ((index % 6) + 1) {
-  //       case 1:
-  //       case 4:
-  //         return 1
-  //       case 2:
-  //       case 5:
-  //         return 2
-  //       case 3:
-  //       case 6:
-  //         return 3
-  //       default:
-  //         return 1
-  //
 }
 </script>
   
@@ -110,13 +95,6 @@ export default {
  /* cards */
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
-
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-} */
 
 .hobbies {
     display: flex;
@@ -147,5 +125,15 @@ export default {
     opacity: 1;
 }
 
+.box {
+  overflow: hidden;
+}
 
-  </style>
+.box .container.section-title {
+  transition: margin-top 0.5s ease-in-out;
+}
+
+.box:hover .container.section-title {
+  margin-top: -100px; /* adjust the margin as needed */
+}
+</style>

@@ -4,7 +4,7 @@
 
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
-      <h2>Resume</h2>
+      <h2>Education & Experience</h2>
       <p>Dive into my professional journey and accomplishments. My resume highlights a diverse range of experiences, skills, and achievements that have shaped my career. From impactful projects and roles to key milestones, it provides a comprehensive overview of my expertise and the value I bring to any opportunity.</p>
     </div><!-- End Section Title -->
 

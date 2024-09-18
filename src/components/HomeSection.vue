@@ -3,7 +3,7 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section light-background">
 
-      <img src="https://azharjacobs.github.io/AzharImages/Portfolio/backgroundPort.jpg" alt="">
+      <img src="https://azharjacobs.github.io/AzharImages/Portfolio/port.jpg" alt="">
 
       <div class="container" data-aos="zoom-out">
         <div class="row justify-content-center">
@@ -13,9 +13,6 @@
         <span>{{ title }}</span>
       </h3>
       <Spinner v-else />
-      <!-- <div class="home-image">
-        <img src="https://github.com/caleb-okkers/coolCards/blob/master/images/IMG_2711onetooneratio.jpg?raw=true" alt="Caleb Okkers" loading="lazy">
-      </div> -->
             <div class="social-links">
               <a href="#"><i class="bi bi-twitter-x"></i></a>
               <a href="#"><i class="bi bi-facebook"></i></a>
@@ -28,22 +25,6 @@
       </div>
 
     </section><!-- /Hero Section -->
-
-    <!-- <video autoplay loop muted playsinline class="video-background" id="bgVideo">
-      <source src="https://videos.pexels.com/video-files/3129977/3129977-uhd_2560_1440_30fps.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-       remember to host video 
-    </video>
-    <div class="content">
-      <h1 class="text">Azhar Jacobs</h1>
-      <h3 v-if="title" class="title">
-        <span>{{ title }}</span>
-      </h3>
-      <Spinner v-else />
-      <div class="home-image">
-        <img src="https://github.com/caleb-okkers/coolCards/blob/master/images/IMG_2711onetooneratio.jpg?raw=true" alt="Caleb Okkers" loading="lazy">
-      </div>
-    </div> -->
 </template>
 
 <script>

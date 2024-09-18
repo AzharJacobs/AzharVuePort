@@ -21,12 +21,12 @@
         <div class="container pt-5">
           <AboutSection :about="about" :hobbies="hobbies"/>
         </div>
+        <section id="Skills">
+          <SkillsSection :skills="skills"/>
+        </section>
       </section>
       <section id="resume">
         <resume-section :education="education"/>
-      </section>
-      <section id="Skills">
-        <SkillsSection :skills="skills"/>
       </section>
       <section id="projects">
         <project-section :projects="projects"/>
