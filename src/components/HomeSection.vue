@@ -14,8 +14,6 @@
       </h3>
       <Spinner v-else />
             <div class="social-links">
-              <a href="#"><i class="bi bi-twitter-x"></i></a>
-              <a href="#"><i class="bi bi-facebook"></i></a>
               <a href="#"><i class="bi bi-instagram"></i></a>
               <a href="#"><i class="bi bi-linkedin"></i></a>
               <a href="https://github.com/AzharJacobs"><i class="bi bi-github"></i></a>
