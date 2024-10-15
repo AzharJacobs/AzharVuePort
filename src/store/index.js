@@ -39,6 +39,7 @@ export default createStore({
     },
     setSkills(state,payload) {
       state.skills = payload
+      state.SoftSkills = payload
     }
   },
   actions: {
@@ -115,9 +116,11 @@ export default createStore({
     },
     async getSkills(context){
       try {
-        let {skills} = (await axios.get(portfolioURL)).data
-        context.commit('setSkills', skills )
-      }catch(e) {
+        const { data } = await axios.get(portfolioURL);
+        const { skills, SoftSkills } = data;
+        context.commit('setSkills', skills);
+        context.commit('setSoftSkills', SoftSkills);
+      } catch (e) {
         Swal.fire({
           title: "Error",
           text: "Failed to fetch data",
