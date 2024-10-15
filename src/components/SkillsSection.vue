@@ -5,7 +5,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Skills</h2>
+        <h2> Technical Skills</h2>
 <p>
   Proficient in full-stack web development, with expertise in HTML, CSS, JavaScript, and frameworks like Vue.js and Node.js. Skilled in database management using MySQL and adept at creating responsive, user-friendly interfaces. Strong problem-solving abilities and a collaborative mindset in project development.
 </p>
@@ -31,6 +31,37 @@
 
     </section><!-- /Services Section -->
 
+        <!-- Services Section -->
+        <section id="services" class="services section">
+
+<!-- Section Title -->
+<div class="container section-title" data-aos="fade-up">
+  <h2> Soft Skills</h2>
+<p>
+Proficient in full-stack web development, with expertise in HTML, CSS, JavaScript, and frameworks like Vue.js and Node.js. Skilled in database management using MySQL and adept at creating responsive, user-friendly interfaces. Strong problem-solving abilities and a collaborative mindset in project development.
+</p>
+
+</div><!-- End Section Title -->
+
+<div class="container">
+
+  <div class="row gy-4">
+
+    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100" v-for="skill in SoftSkills" :key="skill.Icon">
+<div class="service-item item-cyan position-relative">
+<div class="icon">
+<img :src="skill.Icon" alt="skill icon" loading="lazy">
+</div>
+<a href="#" class="stretched-link">
+<h3>{{ skill.Name }}</h3>
+</a>
+</div>
+</div><!-- End Service Item -->
+  </div>
+</div>
+
+</section><!-- /Services Section -->
+
 </template>
 
 <script>
@@ -43,8 +74,8 @@ export default {
         designSkills() {
             return this.$store.state.designSkills
         },
-        softSkills() {
-            return this.$store.state.softSkills
+        SoftSkills() {
+            return this.$store.state.SoftSkills
         }
     },
     mounted() {
