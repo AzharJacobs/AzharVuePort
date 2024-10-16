@@ -3,7 +3,7 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section light-background">
 
-      <img src="https://azharjacobs.github.io/AzharImages/Portfolio/port.jpg" alt="">
+      <img src="../assets/Portfolio/port.jpg" alt="">
 
       <div class="container" data-aos="zoom-out">
         <div class="row justify-content-center">
