@@ -39,7 +39,9 @@ export default createStore({
     },
     setSkills(state,payload) {
       state.skills = payload
-      state.SoftSkills = payload
+    },
+    setSoftSkills(state, payload) {
+      state.SoftSkills = payload;
     }
   },
   actions: {

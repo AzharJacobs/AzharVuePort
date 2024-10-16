@@ -38,7 +38,7 @@
 <div class="container section-title" data-aos="fade-up">
   <h2> Soft Skills</h2>
 <p>
-Proficient in full-stack web development, with expertise in HTML, CSS, JavaScript, and frameworks like Vue.js and Node.js. Skilled in database management using MySQL and adept at creating responsive, user-friendly interfaces. Strong problem-solving abilities and a collaborative mindset in project development.
+  Excellent problem-solving abilities and a collaborative mindset, thriving in both independent and team settings. Adaptable to new technologies and environments, with strong communication skills to convey technical concepts to both technical and non-technical audiences.
 </p>
 
 </div><!-- End Section Title -->
@@ -47,13 +47,13 @@ Proficient in full-stack web development, with expertise in HTML, CSS, JavaScrip
 
   <div class="row gy-4">
 
-    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100" v-for="skill in SoftSkills" :key="skill.Icon">
+    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100" v-for="SoftSkill in SoftSkills" :key="SoftSkill.Name">
 <div class="service-item item-cyan position-relative">
 <div class="icon">
-<img :src="skill.Icon" alt="skill icon" loading="lazy">
+<img :src="SoftSkill.Icon" alt="skill icon" loading="lazy">
 </div>
 <a href="#" class="stretched-link">
-<h3>{{ skill.Name }}</h3>
+<h3>{{ SoftSkill.Name }}</h3>
 </a>
 </div>
 </div><!-- End Service Item -->
@@ -71,16 +71,12 @@ export default {
         skills() {
             return this.$store.state.skills
         },
-        designSkills() {
-            return this.$store.state.designSkills
-        },
         SoftSkills() {
             return this.$store.state.SoftSkills
         }
     },
     mounted() {
         this.$store.dispatch('getSkills'),
-        this.$store.dispatch('getDesignSkills')
         this.$store.dispatch('getSoftSkills')
     }
 }
