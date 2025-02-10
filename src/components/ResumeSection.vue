@@ -41,7 +41,7 @@
           </div><!-- End Resume Item -->
 
           <div class="resume-item">
-            <h4>Aspiring Software Developer</h4>
+            <h4>Software Developer</h4>
             <h5>April 2024 -</h5>
             <p><em>Imam Haron Road, Landsdowne</em></p>
             <ul>
