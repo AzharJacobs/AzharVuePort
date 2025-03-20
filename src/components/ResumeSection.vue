@@ -28,6 +28,19 @@
         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
           <!-- Professional Experience Section -->
           <h3 class="resume-title">Professional Experience</h3>
+          
+          <div class="resume-item">
+            <h4>Software Developer</h4>
+            <h5>April 2024 - Current</h5>
+            <p><em>Imam Haron Road, Landsdowne</em></p>
+            <ul>
+              <li>Collaborating with peers on group coding projects, simulating real-world development workflows.</li>
+              <li>Participating in both front-end and back-end development tasks using technologies like HTML, CSS, JavaScript, Node.js, and databases.</li>
+              <li>Problem-solving through coding challenges, debugging, and optimizing code for efficiency.</li>
+              <li>Learning and applying new programming languages, frameworks, and best practices under the guidance of mentors and instructors.</li>
+            </ul>
+          </div><!-- End Resume Item -->
+          
           <div class="resume-item">
             <h4>Oppo Inc</h4>
             <h5>January 2022 - February 2023</h5>
@@ -39,19 +52,6 @@
               <li>Providing after-sales support, helping customers with product setup and troubleshooting when needed.</li>
             </ul>
           </div><!-- End Resume Item -->
-
-          <div class="resume-item">
-            <h4>Software Developer</h4>
-            <h5>April 2024 -</h5>
-            <p><em>Imam Haron Road, Landsdowne</em></p>
-            <ul>
-              <li>Collaborating with peers on group coding projects, simulating real-world development workflows.</li>
-              <li>Participating in both front-end and back-end development tasks using technologies like HTML, CSS, JavaScript, Node.js, and databases.</li>
-              <li>Problem-solving through coding challenges, debugging, and optimizing code for efficiency.</li>
-              <li>Learning and applying new programming languages, frameworks, and best practices under the guidance of mentors and instructors.</li>
-            </ul>
-          </div><!-- End Resume Item -->
-
         </div>
 
       </div>

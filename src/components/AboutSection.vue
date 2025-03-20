@@ -25,7 +25,6 @@
           <div class="row">
             <div class="col-lg-6">
               <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>30 March 2003</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>https://github.com/AzharJacobs</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+27 66 317 5741</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Cape Town, South Africa</span></li>
@@ -34,7 +33,6 @@
             <div class="col-lg-6">
               <ul>
                 <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Diploma</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>azharj2003@gmail.com</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
               </ul>
